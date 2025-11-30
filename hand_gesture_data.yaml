@@ -1,0 +1,17 @@
+# YOLOv8 手势识别数据配置文件
+
+train: ./datasets/train/images  # 训练集图像路径
+val: ./datasets/val/images      # 验证集图像路径
+
+test: ./datasets/test/images     # 测试集图像路径（可选）
+
+# 手势类别名称
+names:
+  0: "数字1"
+  1: "数字2"
+  2: "数字3"
+  3: "数字4"
+  4: "数字5"
+  5: "剪刀"
+  6: "锤头"
+  7: "布"

@@ -10,7 +10,7 @@ destination_zip = os.path.join(os.path.dirname(source_folder), 'hand-gesture-rec
 if os.path.exists(destination_zip):
     os.remove(destination_zip)
 
-print(f"开始创建压缩包：{destination_zip}")
+print(f"创建压缩包：{destination_zip}")
 print(f"源文件夹：{source_folder}")
 
 # 创建压缩包
